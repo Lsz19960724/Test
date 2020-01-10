@@ -3,15 +3,8 @@
 <suite name="Suite">
   <test thread-count="1" name="Test">
     <classes>
-      <class name="org.TestDemo.AssertDemo"/>
-   	  	<methods>
-   	  	    <include name="test1"/>
-   	  	    <include name="test2"/>
-   	  	    <include name="test3"/>
-   	  	    <include name="logDemo"/>
-   	  	    
-   	  	</methods>
-      </classes>
+      <class name="org.MyCookiesTest.MyCookiesForGet"/>
+    </classes>
   </test> <!-- Test -->
   <listeners>
  	<!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/> -->
