@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+  </listeners>
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="org.TestDemo.AssertDemo">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="logDemo"/>
+        </methods>
+      </class> <!-- org.TestDemo.AssertDemo -->
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="org.TestDemo.AssertDemo">
+        <methods>
+          <include name="test1"/>
+          <include name="logDemo"/>
+        </methods>
+      </class> <!-- org.TestDemo.AssertDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

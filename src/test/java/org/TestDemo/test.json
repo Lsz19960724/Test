@@ -1,0 +1,16 @@
+[
+	{
+
+		"request":{
+			"uri":"/test",
+			"method":"get",
+			"queries":{
+				"name":"aasdad",
+				"age":"123"				
+			}
+		},
+		"response":{
+			"text":"fdsf"
+		}
+	}
+]

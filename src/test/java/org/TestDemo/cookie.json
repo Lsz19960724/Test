@@ -1,0 +1,28 @@
+[
+	{
+		"request":{
+			"uri":"/cookie",
+			"method":"get",
+			"cookies":{
+				"login":"true"
+			}
+		},
+		"response":{
+			"text":"This is a get request that requires the cookie information to be accessed"		
+		
+		}
+		},
+		{
+		"request":{
+			"uri":"/getCookies",
+			"method":"get"
+		},
+		"response":{
+			"cookies":{
+				"login":"true"		
+			},
+			"text":"Congratulation on getting the cookie information"
+		}
+		
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+		"request":{
+			"uri":"/redirect"
+		},
+		"redirectTo":"http://www.baidu.com"
+	},
+	{
+		"description":"Redirect to the page you wrote",
+		"request":{
+			"uri":"/redirect/topath"
+		},
+		"redirectTo":"/redirect/new"
+	},
+	{
+		"request":{
+			"uri":"/redirect/new"
+		},
+		"response":{
+			"text":"success"
+		}
+	}
+]
